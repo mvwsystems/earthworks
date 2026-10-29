@@ -8,6 +8,7 @@ Static site, no build step. Built by 6 Signal (Matt Vincent Walker) for Earth Wo
 - `script.js` — contour canvas in the hero, nav state + reading progress, scroll reveals, counters, grade-profile line draw, magnetic buttons, card spotlight, FAQ height animation, mobile menu.
 - `thanks.html` — Netlify Forms success page. `netlify.toml`, `robots.txt`, `sitemap.xml`, `images/favicon.svg`.
 - `employee-handbook.pdf` — the MKS Construction, LLC employee handbook (rev. 11/22/22), linked from the footer "Employee portal" (same as the current site's Employee Portal button).
+- `images/og-earth-works.jpg` — 1200×627 social share image (logo emblem bursting through red dirt, generated with Higgsfield from the real logo). Referenced by the og:image and twitter:image tags.
 - `images/` — `earth-works-logo.png` (extracted from the handbook PDF, transparent background) and job photos cropped from the current site: `aerial-jobsite-lubbock.jpg`, `commercial-slab-pour.jpg`, `grader-site-grading.jpg`, `slab-forms-concrete.jpg`. Ask the client for the originals at full resolution before launch; the grader and forms crops are low-res.
 
 ## Run locally
