@@ -14,6 +14,11 @@ Static site, no build step. Built by 6 Signal (Matt Vincent Walker) for Earth Wo
 ## Run locally
     npx serve .
 
+## Site URL
+All absolute URLs (canonical, og:url, og:image, twitter:image, JSON-LD url/logo/image, sitemap, robots) currently use `https://earthworks.netlify.app` so share previews work on the preview site. At domain launch, replace every occurrence with `https://earthworkstx.com`:
+
+    grep -rl 'earthworks.netlify.app' . | xargs sed -i 's#https://earthworks.netlify.app#https://earthworkstx.com#g'
+
 ## Edit cheatsheet
 - Phone / email / address: search `722-0262`, `info@earthworkstx.com`, `5939 E Hwy 62` (they appear in the topbar, hero sheet, contact block, footer and JSON-LD).
 - Accent color: change `--flag` and `--flag-deep` in `styles.css`.
