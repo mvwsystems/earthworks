@@ -9,7 +9,7 @@ NAP: 5939 E Hwy 62, Lubbock, TX 79403 · (806) 722-0262 · info@earthworkstx.com
 
 **Stack:** static. `index.html`, `styles.css`, `script.js`, `thanks.html`, `netlify.toml`,
 `robots.txt`, `sitemap.xml`, `images/`, `employee-handbook.pdf`. No build step.
-Deploys on Netlify from `main` (site: earthworks.netlify.app).
+Deploys on Netlify from `main` (site: earthworks1.netlify.app).
 
 **Status:** Phase 1 complete (design system + one-page homepage, scroll micro-animations,
 real logo and job photos, past-projects wall, Netlify Forms estimate form, LocalBusiness +
