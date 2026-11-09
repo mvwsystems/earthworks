@@ -21,7 +21,7 @@ OG/404/Lighthouse pass. Open client questions are listed in README.md and marked
 `--caliche` ground, `--ink`, `--subsoil` dark bands; Archivo (display/body) + IBM Plex Mono.
 Scroll animations are declarative: any container with `data-stagger` animates its children.
 
-**Site URL:** every absolute URL currently uses `https://earthworks.netlify.app`. At domain
+**Site URL:** every absolute URL currently uses `https://earthworks1.netlify.app`. At domain
 launch, flip them all to `https://earthworkstx.com` (one-liner in README.md).
 
 ---
